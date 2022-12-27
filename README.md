@@ -65,3 +65,8 @@ config.set_section_option(config.config_ini_section, "PG_DB", app_config.PG_DB)
 ```ini
 sqlalchemy.url = postgresql+psycopg2://%(PG_USER)s:%(PG_PASSWORD)s@%(PG_HOST)s:%(PG_PORT)s/%(PG_DB)s
 ```
+
+Запускаем 
+```shell
+docker-compose up
+```
